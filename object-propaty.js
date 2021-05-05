@@ -5,7 +5,7 @@ const students = [
     { id: 51, name: "dipjol"}
 ]
 
-// const namesOne = students.map(x => x.id);
+const namesOne = students.map(x => x.id);
 
 const namesTwo = students.filter(x => x.id>30);
 
